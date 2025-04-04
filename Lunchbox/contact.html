@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1800Lunchbox - Services</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inria+Serif:wght@400;700&family=Inter:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    
+    
+</head>
+<body class="contact-page">
+
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+              <span class="logo-bold">1800</span><span class="logo-light">Lunchbox</span>
+            </a>
+          </div>
+        <nav class="nav-links">
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <span class="current-page">Contact</span>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-title-container">
+            <div class="hero-title">
+            Let's Plan your Next Event
+        </div>
+        </div>
+    </section>
+
+
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="contact-info-section">
+                <h3>Phone</h3>
+                <p>(555) 123-4567</p>
+                <p>(555) 987-6543</p>
+            </div>
+            
+            <div class="contact-info-section">
+                <h3>E-mail</h3>
+                <p>info@yourcompany.com</p>
+            </div>
+        </div>
+        
+        <div class="form-container">
+            <h2>Reach Out</h2>
+            <form id="contactForm">
+                <!-- Name and Company row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                </div>
+                
+                <!-- Phone and Email row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                
+                <!-- Event Type -->
+                <div class="form-group-full">
+                    <label for="eventType">Type of Event</label>
+                    <input type="eventType" id="eventType" name ="eventType" required>
+                 </div>
+
+
+                 <!-- Estimated Guess Count -->
+                 <div class="form-group-full">
+                    <label for="guestCount">Estimated Guest Count</label>
+                    <input type="number" id="guestCount" name="guestCount" min="1" required>
+                </div>
+
+                 <!-- Event Date -->
+                 <div class="form-group-full">
+                    <label for="eventDate">Event Date</label>
+                    <input type="date" id="eventDate" name="eventDate" required>
+                </div>
+                
+
+                   <!-- Address -->
+                <div class="form-group-full">
+                    <label for="address">Address of Event</label>
+                    <input type="address" id="address" name ="address">
+                 </div>
+                 
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button class="button-form" type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    
+
+
+
+    <footer>
+        <div class="nav">
+            <div class="logo">
+                <span class="logo-bold">1800</span><span class="logo-light">Lunchbox</span>
+            </div>
+            <div class="navigation">
+                <p>About Us</p>
+                <p>Services</p>
+                <p>Contact</p>
+            </div>
+            <div class="socials">
+                <img src="assets/instagram.svg" alt="">
+            </div>
+        </div>
+        <hr/>
+        <div class="legal-section">
+            <p>@2024 1800LunchBox. All rights reserved.</p>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+        </div>
+    </footer>
+
+
+
+
+
+				
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
